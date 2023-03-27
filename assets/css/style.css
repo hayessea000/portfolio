@@ -1,3 +1,9 @@
-body {
-    border: solid black;
+#profile {
+    height: 400px;
+    width: auto;
+}
+
+.snapshot {
+    height: 300px;
+    width: 300px;
 }
