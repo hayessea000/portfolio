@@ -36,16 +36,14 @@ nav ul li {
     border: 2px solid #13293d;
 }
 
-
-
-
+.title {
+    width: 10%;
+    background-color: darkgrey;
+    padding-top: 10px;
+}
 
 .about {
     display: flex;
-}
-
-.title {
-    width: 10%;
 }
 
 #about {
@@ -54,12 +52,15 @@ nav ul li {
     align-items: center;
 }
 
+#about p {
+    padding-left: 10px;
+}
+
 .profile {
     width: 30%;
     display: flex;
     justify-content: end;
 }
-
 
 #profile {
     width: 75%;
@@ -74,10 +75,12 @@ nav ul li {
 
 
 
-
-
-
 .projects {
+    display: flex;
+}
+
+
+#projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
