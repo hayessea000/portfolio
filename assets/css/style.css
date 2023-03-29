@@ -1,9 +1,53 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    height: 400px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.name {
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+
 #profile {
     height: 400px;
-    width: auto;
+    width: 284px;
+    flex-shrink: 1 1 1;
+    border: 2px solid black;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
+}
+
+li {
+    margin: 3px;
 }
 
 .snapshot {
     height: 300px;
     width: 300px;
 }
+
