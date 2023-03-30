@@ -111,8 +111,6 @@ nav ul li {
     width: 100%;
 } 
 
-
-
 footer {
     width: 100%;
     background-color: darkgray;
@@ -120,6 +118,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
 footer h3 {
     margin: auto;
     font-size: 40px;
@@ -138,6 +137,7 @@ footer ul li {
     border-bottom: 2px solid black;
     color: black; 
 }
+
 a:link, a:visited {
     color: black;
 }
