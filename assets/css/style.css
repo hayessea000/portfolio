@@ -99,7 +99,7 @@ nav ul li {
 }
 
 #projects .card:first-child {
-   flex: 0 1 100%;
+   flex: 0 1 80%;
 }
   
 .card header {
@@ -176,7 +176,7 @@ a:link, a:visited {
         line-height: 20px;
     }
     .card{
-        flex: 1 1 100%; 
+        flex: 0 1 80%; 
     }
     .name {
         font-size: 30px;
